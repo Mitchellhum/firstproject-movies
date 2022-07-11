@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  margin: 10px 0px 30px 0px;
+  text-align: left;
+}
+
+.header {
+  border-bottom: 1px solid black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

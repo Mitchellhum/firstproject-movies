@@ -1,0 +1,25 @@
+.row {
+  padding: 1px;
+}
+
+.data {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0px 5px;
+}
+
+.row:hover {
+  background: rgb(230, 230, 230);
+}
+
+.active {
+  padding: 0px;
+  background: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 600px) {
+  .data {
+    font-size: small;
+  }
+}

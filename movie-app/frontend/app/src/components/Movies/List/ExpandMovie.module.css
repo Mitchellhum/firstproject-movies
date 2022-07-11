@@ -1,0 +1,50 @@
+.expandmodal {
+  position: absolute;
+  background-color: rgb(253, 252, 248);
+  padding: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  border-radius: 5px;
+  z-index: 13;
+  font-family: inherit;
+  align-content: center;
+  height: 400px;
+}
+
+.expandmodal h4 {
+  text-overflow: ellipsis;
+  overflow: auto;
+  max-height: 2.6em;
+  line-height: 1.3em;
+}
+.description {
+  background: white;
+  height: 45%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.backfall {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.279);
+  z-index: 12;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.description {
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 1150px) {
+  .description {
+    height: 35%;
+  }
+}

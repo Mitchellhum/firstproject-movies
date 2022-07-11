@@ -1,0 +1,8 @@
+.search {
+  background-color: #ffffff;
+  font-family: inherit;
+}
+
+.search::placeholder {
+  color: white;
+}
