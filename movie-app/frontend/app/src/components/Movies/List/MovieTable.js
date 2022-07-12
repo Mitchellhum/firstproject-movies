@@ -7,6 +7,7 @@ import Row from "./Row";
 import styles from "./MovieTable.module.css";
 
 const MovieTable = (props) => {
+  // Might consider adding a pre-filled array of size moviesPerPage for aesthetic reasons (table size changes after each entry)
   const [selectedMovie, setSelectedMovie] = useState("");
   const [moviesPerPage, setMoviesPerPage] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
